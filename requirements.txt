@@ -1,4 +1,6 @@
 streamlit
-nltk
 pandas
+nltk
 spacy
+scikit-learn
+Pillow
