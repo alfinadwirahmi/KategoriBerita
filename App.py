@@ -58,7 +58,7 @@ def load_data():
 
 st.title("Clustering Kategori Berita")
 
-image_path = (r"C:\Users\user\Downloads\App\App\cover.jpg")
+image_path = (r"cover.jpg")
 image = Image.open(image_path)
 st.image(image, width=600)
 
