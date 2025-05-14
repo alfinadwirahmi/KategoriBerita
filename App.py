@@ -50,7 +50,7 @@ cluster_labels = {
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\user\Downloads\App\App\preprocessed_data.csv", header=None, names=["text"], encoding="utf-8")
+    df = pd.read_csv(r"preprocessed_data.csv", header=None, names=["text"], encoding="utf-8")
     df["text"] = df["text"].apply(preprocess_text)
     return df
 
